@@ -1,0 +1,22 @@
+.heading {
+   padding: 60px;
+   font-size: 25px;
+   text-align: center;
+   background: pink;
+   }
+
+ .section {
+   background-color: #E9E2FA;
+   padding: 20px;
+   margin-top: 30px;
+   }
+ .movie {
+   background-color: #F800FC;
+   padding: 20px;
+   margin-top: 30px;
+   img {
+    border-radius: 50%; /* CHAT GPT: Makes the image circular */
+    border: 3px solid #ddd; /* CHAT GPT: Adds a border around the circular image */
+    width: 150px; /* CHAT GPT: Adjusts the width of the image */
+    height: 150px; /* CHAT GPT: Ensures the image is perfectly circular */
+    object-fit: cover; /* CHAT GPT: Ensures the image content fits within the circular shape */
